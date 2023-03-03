@@ -1,3 +1,35 @@
 body {
+    background: #131313;
+    text-align: center;
+}
+
+#rowButt {
+    margin-bottom: 5px;
+}
+
+#container {
+    display:flex;
+    flex-flow: row wrap;
     margin: 0 auto;
+    padding: 0 auto;
+    width: 960px;
+    height: 960px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow:0px 0px 0px 1px whitesmoke inset;*/
+    text-align: center;
+    background: black;
+    color: white;
+    /* transition: 0.1s; */
+}
+
+.grid-item:hover {
+    background: red;
 }
